@@ -25,11 +25,11 @@
     /* Universal */
     background-color: @invisible;
     border-color: @default-border;
-    font: "Noto Sans 10";
+    font: "Noto Sans 8";
     text-color: @default-foreground;
 }
 
-#window {
+window {
     background-color: @default-background;
     border: 1;
     border-radius: 3;
@@ -37,83 +37,88 @@
     padding: 7;
 }
 
-#mainbox {
+mainbox {
     border:  0;
     padding: 0;
 }
 
-#message {
+message {
     border: 1;
     border-radius: 3;
     padding: 5;
     background-color: @alternative-background;
 }
 
-#textbox {
+textbox {
     background-color: @entry-background;
 }
 
-#listview {
+listview {
     fixed-height: 0;
     spacing: 2;
     scrollbar: false;
     padding: 2 0 0;
 }
 
-#element {
+element {
     padding: 5;
     border: 1;
     border-radius: 3;
     border-color: @invisible;
 }
 
-#element.normal.normal {
+element.normal.normal {
     background-color: @invisible;
 }
 
-#element.normal.urgent {
+element.normal.urgent {
     background-color: @light-red;
 }
 
-#element.normal.active {
+element.normal.active {
     background-color: @light-green;
 }
 
-#element.selected.normal {
+element.selected.normal {
     background-color: @light-blue;
     border-color:     @hard-blue;
 }
 
-#element.selected.urgent {
+element.selected.urgent {
     background-color: @light-red;
     border-color:     @hard-red;
 }
 
-#element.selected.active {
+element.selected.active {
     background-color: @light-green;
     border-color:     @hard-green;
 }
 
-#mode-switcher {
+element-icon {
+    size: 24;
+    margin: 2 7 0 0;
+}
+
+mode-switcher {
     spacing: 0;
 }
 
-#button {
+button {
     border: 0 0 3 0;
     border-color: @invisible;
     padding: 3;
 }
 
-#button.selected {
+button.selected {
     border-color: @hard-blue;
 }
 
-#inputbar {
+inputbar {
     spacing: 0;
     padding: 1;
 }
 
-#case-indicator {
+case-indicator {
     spacing: 0;
     padding: 3px;
     background-color: @alternative-background;
@@ -121,13 +126,13 @@
     border-radius: 0 2 2 0;
 }
 
-#entry {
+entry {
     background-color: @alternative-background;
     padding: 3px;
     border: 1 0 1 1;
     border-radius: 2 0 0 2;
 }
 
-#prompt {
+prompt {
     padding: 3 7 3 0;
 }
