@@ -10,6 +10,7 @@
     default-foreground: rgba ( 196, 203, 212, 100 % );
     default-border: rgba ( 124, 131, 137, 100 % );
     alternative-background: rgba ( 64, 69, 82, 59 % );
+    entry-background: rgba ( 45, 48, 59, 100 % );
     invisible: rgba(0, 0, 0, 0%);
 
     /* Colors */

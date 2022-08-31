@@ -22,6 +22,7 @@ configuration {
     default-foreground: rgba(248, 248, 242, 100%);
     default-border: rgba(189, 147, 249, 100%);
     alternative-background: rgba(40, 42, 54, 100%);
+    entry-background: rgba( 40, 42, 54, 80 % );
     invisible: rgba(0, 0, 0, 0%);
 
     /* Colors */
