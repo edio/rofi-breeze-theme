@@ -1,5 +1,3 @@
-# This repository is no longer maintained
-
 # rofi-breeze-theme
 A rofi theme inspired by breeze from kde plasma.
 
